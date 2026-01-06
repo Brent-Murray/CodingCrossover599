@@ -1,0 +1,17 @@
+name: my_599_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - numpy
+  - pandas
+  - geopandas
+  - scikit-learn
+  - scikit-image
+  - rasterio
+  - matplotlib
+  - shapely
+  - pip
+  - pip:
+      - tqdm
